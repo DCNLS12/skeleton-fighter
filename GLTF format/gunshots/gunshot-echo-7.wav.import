@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bg1phpyy3bd1l"
+path="res://.godot/imported/gunshot-echo-7.wav-e41e7af361852ddfde4c0076ee4e87b1.sample"
+
+[deps]
+
+source_file="res://GLTF format/gunshots/gunshot-echo-7.wav"
+dest_files=["res://.godot/imported/gunshot-echo-7.wav-e41e7af361852ddfde4c0076ee4e87b1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

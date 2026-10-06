@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bq1goo8864s40"
+path="res://.godot/imported/shotgunshot-1.wav-e4f77f4fb561639d5d7e49a6473a9d00.sample"
+
+[deps]
+
+source_file="res://GLTF format/gunshots/shotgunshot-1.wav"
+dest_files=["res://.godot/imported/shotgunshot-1.wav-e4f77f4fb561639d5d7e49a6473a9d00.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

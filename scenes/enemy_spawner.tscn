@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dwl1j87gbxrnr"]
+
+[ext_resource type="Script" uid="uid://cawt7gn54o3b2" path="res://enemy_spawner.gd" id="1_cjyk1"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_bydli"]
+
+[node name="EnemySpawner" type="Marker3D" unique_id=1863184918]
+script = ExtResource("1_cjyk1")
+
+[node name="Timer" type="Timer" parent="." unique_id=1596713016]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=370246031]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=2003722413]
+shape = SubResource("SphereShape3D_bydli")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

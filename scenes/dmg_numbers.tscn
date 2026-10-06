@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://duc4qeys2g41h"]
+
+[ext_resource type="Script" uid="uid://1kvomp4rgq3u" path="res://scripts/dmg_numbers.gd" id="1_qah4g"]
+
+[node name="dmg_numbers" type="Node3D" unique_id=841652933]
+script = ExtResource("1_qah4g")
+
+[node name="Label3D" type="Label3D" parent="." unique_id=1758279651]
+billboard = 1
+no_depth_test = true
+text = "67"
+font_size = 128
+outline_size = 32
+
+[node name="Timer" type="Timer" parent="." unique_id=1718332330]
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

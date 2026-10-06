@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b4v4i5c1dauou"]
+
+[ext_resource type="Script" uid="uid://1t72lqadpk0k" path="res://spawner.gd" id="1_yp5lu"]
+[ext_resource type="PackedScene" uid="uid://bvgbvem2as7y1" path="res://ammo_clip.tscn" id="2_ttk4a"]
+
+[node name="Spawner" type="Marker3D" unique_id=70816353]
+script = ExtResource("1_yp5lu")
+object = ExtResource("2_ttk4a")
+
+[node name="Timer" type="Timer" parent="." unique_id=679390123]
+wait_time = 5.0
+autostart = true
+
+[connection signal="child_exiting_tree" from="." to="." method="_on_child_exiting_tree"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

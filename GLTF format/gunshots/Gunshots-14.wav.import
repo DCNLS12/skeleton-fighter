@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://us6bn2u8h4ti"
+path="res://.godot/imported/Gunshots-14.wav-46fb4b70bf2395f432af1dd30174a2dc.sample"
+
+[deps]
+
+source_file="res://GLTF format/gunshots/Gunshots-14.wav"
+dest_files=["res://.godot/imported/Gunshots-14.wav-46fb4b70bf2395f432af1dd30174a2dc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

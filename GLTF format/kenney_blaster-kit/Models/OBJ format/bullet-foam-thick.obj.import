@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bo0ng5j7f4y7s"
+path="res://.godot/imported/bullet-foam-thick.obj-c7878ec8dba7781498503e97b00f4f5a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bullet-foam-thick.obj-c7878ec8dba7781498503e97b00f4f5a.mesh"]
+
+source_file="res://GLTF format/kenney_blaster-kit/Models/OBJ format/bullet-foam-thick.obj"
+dest_files=["res://.godot/imported/bullet-foam-thick.obj-c7878ec8dba7781498503e97b00f4f5a.mesh", "res://.godot/imported/bullet-foam-thick.obj-c7878ec8dba7781498503e97b00f4f5a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

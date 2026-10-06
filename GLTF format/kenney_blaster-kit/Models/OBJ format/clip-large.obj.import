@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4xwsv7emfbg2"
+path="res://.godot/imported/clip-large.obj-5baca42640e112de7c7ce64f173fe6dc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/clip-large.obj-5baca42640e112de7c7ce64f173fe6dc.mesh"]
+
+source_file="res://GLTF format/kenney_blaster-kit/Models/OBJ format/clip-large.obj"
+dest_files=["res://.godot/imported/clip-large.obj-5baca42640e112de7c7ce64f173fe6dc.mesh", "res://.godot/imported/clip-large.obj-5baca42640e112de7c7ce64f173fe6dc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

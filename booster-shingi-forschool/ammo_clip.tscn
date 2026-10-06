@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvgbvem2as7y1"]
+
+[ext_resource type="Script" path="res://ammo_clip.gd" id="1_eixwr"]
+[ext_resource type="PackedScene" uid="uid://c2sjrfynpnsu3" path="res://GLTF format/kenney_blaster-kit/Models/GLB format/clip-large.glb" id="1_ets4h"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_3oc5f"]
+radius = 0.221789
+
+[node name="AmmoClip" type="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0294969, 0.00748491, -0.00381991)
+script = ExtResource("1_eixwr")
+
+[node name="clip-large2" parent="." instance=ExtResource("1_ets4h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_3oc5f")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

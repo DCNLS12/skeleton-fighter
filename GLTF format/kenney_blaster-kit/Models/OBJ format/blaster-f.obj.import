@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cicm077jqpw7"
+path="res://.godot/imported/blaster-f.obj-211d0eed656cce47db5d5d6dc3e17bd0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blaster-f.obj-211d0eed656cce47db5d5d6dc3e17bd0.mesh"]
+
+source_file="res://GLTF format/kenney_blaster-kit/Models/OBJ format/blaster-f.obj"
+dest_files=["res://.godot/imported/blaster-f.obj-211d0eed656cce47db5d5d6dc3e17bd0.mesh", "res://.godot/imported/blaster-f.obj-211d0eed656cce47db5d5d6dc3e17bd0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

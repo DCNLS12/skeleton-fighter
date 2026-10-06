@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dbhxa2fyg6mu4"
+path="res://.godot/imported/gunshots-03-2.wav-5a51834c7f21f9c4f7cbd4e057fd5119.sample"
+
+[deps]
+
+source_file="res://GLTF format/gunshots/gunshots-03-2.wav"
+dest_files=["res://.godot/imported/gunshots-03-2.wav-5a51834c7f21f9c4f7cbd4e057fd5119.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
