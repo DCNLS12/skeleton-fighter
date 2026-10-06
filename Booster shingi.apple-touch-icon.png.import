@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://btyvl2xvx5di2"
-path="res://.godot/imported/Booster shingi.apple-touch-icon.png-7bdecaf1d19f970374e60307efdcd260.ctex"
+uid="uid://cxaj1iqm3p1g6"
+path="res://.godot/imported/Booster shingi.apple-touch-icon.png-ea0b2eb1f5b3495877d06fea1f4ed9a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://webGRIEF67/Booster shingi.apple-touch-icon.png"
-dest_files=["res://.godot/imported/Booster shingi.apple-touch-icon.png-7bdecaf1d19f970374e60307efdcd260.ctex"]
+source_file="res://Booster shingi.apple-touch-icon.png"
+dest_files=["res://.godot/imported/Booster shingi.apple-touch-icon.png-ea0b2eb1f5b3495877d06fea1f4ed9a0.ctex"]
 
 [params]
 

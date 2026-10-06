@@ -23,6 +23,11 @@ config/icon="res://icon.svg"
 
 Game="*uid://cv7vilcauex77"
 
+[display]
+
+window/size/viewport_width=1276
+window/size/viewport_height=720
+
 [file_customization]
 
 folder_colors={

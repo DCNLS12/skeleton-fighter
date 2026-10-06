@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwblihkv3vsxi"
-path="res://.godot/imported/Booster shingi.png-4c87c475252b21ab349e73ad9d56967e.ctex"
+uid="uid://bvmytnigrgggi"
+path="res://.godot/imported/Booster shingi.png-e3dfc56d733888688d5fff47dd2c8e33.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://webGRIEF67/Booster shingi.png"
-dest_files=["res://.godot/imported/Booster shingi.png-4c87c475252b21ab349e73ad9d56967e.ctex"]
+source_file="res://Booster shingi.png"
+dest_files=["res://.godot/imported/Booster shingi.png-e3dfc56d733888688d5fff47dd2c8e33.ctex"]
 
 [params]
 

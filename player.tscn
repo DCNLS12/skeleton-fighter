@@ -234,28 +234,6 @@ volume_db = 20.0
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=142309092]
 
-[node name="ammo" type="Label" parent="CanvasLayer" unique_id=704376880]
-offset_left = 968.0
-offset_top = 550.0
-offset_right = 1041.0
-offset_bottom = 641.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("6_ob2ky")
-theme_override_font_sizes/font_size = 57
-text = "20"
-
-[node name="reserve_ammo" type="Label" parent="CanvasLayer" unique_id=885717822]
-offset_left = 1050.0
-offset_top = 576.0
-offset_right = 1108.0
-offset_bottom = 630.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("6_ob2ky")
-theme_override_font_sizes/font_size = 34
-text = "100"
-
 [node name="HUD" type="Control" parent="CanvasLayer" unique_id=937726758]
 layout_mode = 3
 anchors_preset = 15
@@ -300,6 +278,40 @@ offset_right = 143.74976
 offset_bottom = 137.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("8_b26j0")
+theme_override_font_sizes/font_size = 48
+text = "100"
+
+[node name="ammo" type="Label" parent="CanvasLayer/HUD" unique_id=704376880]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.073
+anchor_top = 0.074
+anchor_right = 0.073
+anchor_bottom = 0.074
+offset_left = 968.0
+offset_top = 550.0
+offset_right = 1041.0
+offset_bottom = 641.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("6_ob2ky")
+theme_override_font_sizes/font_size = 72
+text = "20"
+
+[node name="reserve_ammo" type="Label" parent="CanvasLayer/HUD" unique_id=885717822]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.095
+anchor_top = 0.074
+anchor_right = 0.095
+anchor_bottom = 0.074
+offset_left = 1050.0
+offset_top = 576.0
+offset_right = 1108.0
+offset_bottom = 630.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("6_ob2ky")
 theme_override_font_sizes/font_size = 48
 text = "100"
 
